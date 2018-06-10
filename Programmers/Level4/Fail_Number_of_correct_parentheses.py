@@ -10,12 +10,12 @@ def solution(n):
         return 1
     ls = ["()"]
     for i in ls:
-        if len(ls[-1]) == 2*(n+1):
+        if len(ls[-1]) == 2*(n+1): # n+1개의 괄호가 출현할때까지 반복
             break
         ls.append(i+"()")
         ls.append("()"+i)
-        ls.append("("+i+")")
-    ls= [x for x in ls if len(x) == 2*n]
+        ls.append("("+i+")") # n개의 올바른 괄호의 집합을 이용해 n+1개의 괄호를 구하려 했지만 틀린듯 하다.
+    ls= [x for x in ls if len(x) == 2*n] # 내가 필요한 n개의 괄호로만 이루어진 것들을 고른다.
     ls = list(set(ls))
 
     return len(ls)
