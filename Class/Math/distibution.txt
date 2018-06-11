@@ -1,0 +1,11 @@
+Bern k = 2 -----> Binomial
+Cat k >= 2 -----> Multinomial
+
+Multinomial distribution
+
+ex) k = 6, N = 10
+x = (4,1,2,3,0,0) ------> 합이 N
+
+N개에서 x1~xk개를 뽑는 가짓수 = x1개 중복~ xk개 중복 일떄 나열하는 가짓
+
+boxplot 복습
