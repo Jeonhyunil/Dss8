@@ -36,3 +36,9 @@ Central Limit Theorem
 Central = 중요한
 
 
+Student-t distribution
+
+fat tail일 경우에 적합하다.
+
+정규 + 정규 = 정규(다가가는게 아니라 정규분포 그 자체가 된다.)(몇개를 더하든)(단 평균과 표준편차가 정확해야 함.)
+if 샘플 평균을 샘플 분산으로 정규화를 하면 스튜던트-t 분포를 따른다.
