@@ -1,6 +1,7 @@
 Bern k = 2 -----> Binomial
 Cat k >= 2 -----> Multinomial
 
+
 Multinomial distribution
 
 ex) k = 6, N = 10
@@ -11,3 +12,20 @@ N개에서 x1~xk개를 뽑는 가짓수 = x1개 중복~ xk개 중복 일떄 나�
 boxplot 복습
 jittering = descrete한 data들은 높이값이 같으므로 점들을 구분하기 위해 랜덤하게 점을 찍어준다.(안이쁘다)
 swarmplot = 점을 옆으로 밀어내서 겹치지 않게 해줌(더 이쁘다)
+
+
+Gaussian
+
+모수로 시그마가 아닌 시그마 제곱이 쓰인다.
+
+scatter plot이란?
+2차원 배열을 좌표평면에 점을 찍은것
+
+
+Q-Q plot
+
+위로 휜다 -> 꼬리가 길다
+S자 -> 꼬리가 짧다
+probplot -> 기본적으로 plot이 아니기 때문에 plot=plt라고 조건을 줘야한다.
+
+
