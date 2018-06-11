@@ -31,3 +31,8 @@ S자 -> 꼬리가 짧다
 probplot -> 기본적으로 plot이 아니기 때문에 plot=plt라고 조건을 줘야한다.
 
 
+Central Limit Theorem
+
+Central = 중요한
+
+
