@@ -16,6 +16,8 @@ swarmplot = 점을 옆으로 밀어내서 겹치지 않게 해줌(더 이쁘다)
 
 Gaussian
 
+평균 =0, 분산 = 1 -> standard normal distribution
+
 모수로 시그마가 아닌 시그마 제곱이 쓰인다.
 
 scatter plot이란?
