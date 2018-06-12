@@ -53,4 +53,7 @@ chi-squared
 
 여러개를 합치면 역시 normal distribution으로 간다.
 
+F분포에서 pdf식을 n1 = n2 라고 놓고 계산하면 (x/x+1)의 n1(=n2)제곱이 나온다.
+이는 실제 1보다 살짝 작은값
+
 
