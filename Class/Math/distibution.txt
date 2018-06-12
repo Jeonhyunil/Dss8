@@ -7,6 +7,12 @@ Cat k >= 2 -----> Multinomial
 
 E[Verni] = 베르누이분포 따르는 확률변수를 한번 시행할 때 기대할 수 있는 기댓값(0 or 1 이 아니다.!)(물론 시행하면 0 or 1이 나오겠지)
 
+
+Categorical distribution
+
+E[x_k] = (if x = [1,0,0,0,0 ...,0] 이라면 기댓값은 theta_1)theta_k
+
+
 Multinomial distribution
 
 ex) k = 6, N = 10
