@@ -2,6 +2,9 @@ Bern k = 2 -----> Binomial
 Cat k >= 2 -----> Multinomial
 
 
+이항분포는 N번의 베르누이 시행중 성공한 횟수를 확률변수 X라고 한다.
+그렇다는 것은 N번의 베르누이 시행에서 나온 모든 결과들을 더한 결과들의 합이 X를 따른다고 할 수 있다.
+
 Multinomial distribution
 
 ex) k = 6, N = 10
