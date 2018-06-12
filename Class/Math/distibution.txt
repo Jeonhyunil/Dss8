@@ -46,6 +46,10 @@ Central Limit Theorem
 
 Central = 중요한
 
+평균과 분산이 통일된 N개의 확률분포(X1, X2 ... Xn)에서각 확률분포의 정의역에서원소를 하나씩 가져온다.(x1,x2.....xn)
+그것들을 평균 낸 값(x bar)를 정의역으로 갖는 확률변수를 새로이 정의한다.(X bar)
+이 (X bar)를 정규화시키면 이 분포는 N이 크면 클수록 Standard Normal distribution으로 다가간다.
+
 
 Student-t distribution
 
