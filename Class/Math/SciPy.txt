@@ -1,0 +1,5 @@
+가우시안 정규 분포 : rv = sp.stats.norm(mu, std), plt.plot(xx, rv.pdf(xx))
+Q-Q 플롯 : sp.stats.probplot(x, plot=plt)
+스튜던트 t 분포 : rv = sp.stats.t(df=자유도, loc=기댓값(0), scale=표준편차(1)), plt.plot(xx, rv.pdf(xx))
+카이 제곱 분포 : rv = sp.stats.chi2(df=자유도), plt.plot(xx, rv.pdf(xx))
+F 분포 : plt.plot(xx, sp.stats.f(a,b).pdf(xx))
