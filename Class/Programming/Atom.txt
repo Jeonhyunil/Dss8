@@ -1,0 +1,1 @@
+first-child 적용 -> 감싸고있는 element의 첫번째에 위치해야만 css 적용됨
