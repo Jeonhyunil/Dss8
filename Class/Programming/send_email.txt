@@ -1,3 +1,5 @@
 SMTP
 
 python -> SMTP -> mail
+
+mail을 받는 site마다 받는 형식이 다르다.
