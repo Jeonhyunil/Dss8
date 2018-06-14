@@ -1,0 +1,3 @@
+SMTP
+
+python -> SMTP -> mail
