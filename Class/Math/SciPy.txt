@@ -1,3 +1,7 @@
+베르누이 분포 : rv = sp.stats.bernoulli(theta), plt.bar(xx, rv.pmf(xx))
+이항 분포 : rv = sp.stats.binom(N, theta), plt.bar(xx, rv.pmf(xx))
+카테고리 분포 : rv = sp.stats.multinomial(1, theta), xx_ohe = pd.get_dummies(xx), plt.bar(xx, rv.pmf(xx_ohe)
+다항 분포 : rv = sp.stats.multinomial(N, theta)
 가우시안 정규 분포 : rv = sp.stats.norm(mu, std), plt.plot(xx, rv.pdf(xx))
 Q-Q 플롯 : sp.stats.probplot(x, plot=plt)
 스튜던트 t 분포 : rv = sp.stats.t(df=자유도, loc=기댓값(0), scale=표준편차(1)), plt.plot(xx, rv.pdf(xx))
